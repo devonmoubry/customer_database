@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #525252;
+}
+
+container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.customerProfile {
+  flex-basis: 20vw;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 10px;
+}
+
+.name, .email, .title {
+  text-transform: uppercase;
+}
+
+.name {
+  font-weight: bolder;
+  border-bottom: 2px solid #0fab0f;
+  margin: 16px 40px;
+}
+
+.email {
+  font-size: .8em;
+}
+
+.photo {
+  width: 20vw;
+}
+
+.contact {
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.contactBlock {
+  padding: .3em 0;
+}
+
+.SS {
+  color: #0fab0f;
+}
